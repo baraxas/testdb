@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[RefTypes]
+(
+[TypeId] [int] NOT NULL IDENTITY(1, 1) NOT FOR REPLICATION,
+[Type] [nvarchar] (64) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[RefTypes] ADD CONSTRAINT [PK_RefTypes] PRIMARY KEY CLUSTERED  ([TypeId]) ON [PRIMARY]
+GO

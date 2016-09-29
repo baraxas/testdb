@@ -1,0 +1,3 @@
+CREATE SCHEMA [Data Readers]
+AUTHORIZATION [Data Readers]
+GO
